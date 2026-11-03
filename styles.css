@@ -151,6 +151,8 @@ html[data-theme='dark'] .button-primary { color: #10211f; }
 .background-section { padding-bottom: 110px; }
 .background-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .education-card, .leadership-card { padding: 26px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+.education-entry + .education-entry { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--line); }
+.education-entry > .eyebrow { margin: 0 0 10px; font-size: 9px; }
 .education-card .eyebrow, .leadership-card .eyebrow { margin-bottom: 17px; font-size: 9px; }
 .education-card h3, .leadership-card h3 { margin: 0 0 11px; font-size: 19px; font-weight: 700; letter-spacing: -.035em; line-height: 1.35; }
 .education-location { margin: 0 0 23px; color: var(--muted); font-size: 11px; line-height: 1.6; }
